@@ -1,0 +1,106 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Successful Actor Pairings</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.7/firebase.js"></script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="large-12 columns">
+        <h1>Actors and Partners</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="callout">
+          <h3>Wonder which cast works and which doesn&rsquo;t ?</h3>
+          <p>You&rsquo;ve come to the right place. </p>
+          <p>Enter the <b>name</b> of an actor. Get a list of his/her partners</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-10 medium-10 columns">
+        <form>
+          <div class="row">
+            <div class="large-5 medium-5 columns">
+              <label>First Name</label>
+              <input id="first-name-input" type="text" placeholder="First Name"/>
+            </div>
+            <div class="large-7 medium-7 columns">
+              <label>Last Name</label>
+              <input id="last-name-input" type="text" placeholder="Last Name" />
+            </div>
+          </div>
+        </form>
+
+        <div class="row">
+          <div class="large-3 medium-3 small-3 columns">
+            <div class="primary callout">
+              <p>Name of Actor</p>
+            </div>
+          </div>
+          <div class="large-5 medium-5 small-5 columns">
+            <div class="primary callout">
+              <p>Names of Co-Stars</p>
+            </div>
+          </div>
+          <div class="large-4 medium-4 small-4 columns">
+            <div class="primary callout">
+              <p>Movies</p>
+            </div>
+          </div>
+        </div>
+
+<!--         <div class="row">
+			<div id="myModal" class="reveal-modal">
+			      <a class="close-reveal-modal">&#215;</a>
+			</div>
+        </div> -->
+
+
+        <div class="row" id="actors-and-costars">
+        <!-- Div to hold the names of actors, co-stars and movie names -->
+        	<div id="main-actor-name" class="large-3 medium-3 small-3 columns">
+        	</div>
+        	<div id="costars-movies" class="large-9 medium-9 small-9 columns">
+        	</div>
+
+        </div>
+
+        <!-- draw a line -->
+        <hr />
+
+
+      </div>
+
+      <div class="large-2 medium-2 columns">
+        <button class="button" id="find-cast-info">Submit</button><br/>
+<!--         <a href="#" class="success button">Success Btn</a><br/>
+        <a href="#" class="alert button">Alert Btn</a><br/>
+        <a href="#" class="secondary button">Secondary Btn</a>
+        <div class="callout">
+          <h5>So many components, girl!</h5>
+          <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
+          <a href="http://foundation.zurb.com/sites/docs/" class="small button">Go to Foundation Docs</a>
+        </div>
+ -->      </div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+</html>
+
+
