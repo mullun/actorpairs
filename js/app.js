@@ -35,7 +35,7 @@ var actorAndMovies = [{   // main data object to hold actors, movies & pairings
     }]
   }];
 
-database.ref().set(actorAndMovies);   // use to create first object in database
+// database.ref().set(actorAndMovies);   // use to create first object in database
 
 // console.log("after first database set");
 
